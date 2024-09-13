@@ -2,5 +2,8 @@
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
-  "imports": { "twitter-api-v2": "npm:twitter-api-v2@^1.17.2" }
+  "imports": {
+    "@evex/excryptjs": "jsr:@evex/excryptjs@^1.1.3",
+    "twitter-api-v2": "npm:twitter-api-v2@^1.17.2"
+  }
 }
