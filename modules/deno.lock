@@ -1,0 +1,28 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/crypto": "jsr:@std/crypto@1.0.2",
+      "npm:twitter-api-v2@^1.17.2": "npm:twitter-api-v2@1.17.2"
+    },
+    "jsr": {
+      "@std/crypto@1.0.2": {
+        "integrity": "bb515dbcd4d67aacf0ffece643a434811ea06e5b544f03c33ba58552fbdb87c7"
+      }
+    },
+    "npm": {
+      "twitter-api-v2@1.17.2": {
+        "integrity": "sha512-V8QvCkuQ+ydIakwYbVC4cuQxGlvjdRZI0L7TT5v9zGsf+SwX40rv3IFRHB8Z1cXJLcRFT0FI3xG3/f4zwS6cRA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.202.0/encoding/base64.ts": "144ae6234c1fbe5b68666c711dc15b1e9ee2aef6d42b3b4345bf9a6c91d70d0d"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:twitter-api-v2@^1.17.2"
+    ]
+  }
+}
